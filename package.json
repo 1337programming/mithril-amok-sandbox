@@ -1,0 +1,16 @@
+{
+  "name": "mithril-amok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd app; amok --browser chrome --hot file://$PWD/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "mithril": "^0.2.0",
+    "mithril-bootstrap": "git+https://github.com/ng-vu/mithril-bootstrap.git"
+  }
+}
